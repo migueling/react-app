@@ -5,7 +5,7 @@ import "../comments.css";
 
 const Comment = ({ comment, onEdit, onDelete }) => {
   return (
-    <div className="comment-container">
+    <div className="comment-container 2">
       <div className="date-container">
         <div>
           <button onClick={() => onDelete(comment._id)}>Delete</button>
